@@ -21,10 +21,9 @@
     <link href="kickstarter-master/css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 
@@ -35,24 +34,69 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 <!-- LOGO & NavBar -->
-<nav class="navbar sticky-top navbar-light bg-light">
-    <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="images/blåtlogo.png" alt="SangkraftBlåLogo" width="100" height="60">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-target="#myDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="dropdown-menu position-end dropdown-menu-end" id="myDropdown">
-            <ul>
-                <li><a class="dropdown-item" href="#">Link 1</a></li>
-                <li><a class="dropdown-item" href="#">Link 2</a></li>
-                <li><a class="dropdown-item" href="#">Link 3</a></li>
-                <li><a class="dropdown-item" href="#">Link 4</a></li>
-            </ul>
-        </div>
+<nav class="navbar">
+    <div class="navbar-logo">
+        <a href="#"><img src="images/blåtlogo.png" alt="Logo" class="navbar-logo"></a>
     </div>
+    <label for="menu-toggle" class="navbar-toggle">&#9776;</label>
+    <input type="checkbox" id="menu-toggle" class="navbar-toggle-checkbox">
+    <ul class="navbar-menu">
+        <li><a href="#">Menu Item 1</a></li>
+        <li><a href="#">Menu Item 2</a></li>
+        <li><a href="#">Menu Item 3</a></li>
+        <li><a href="#">Menu Item 3</a></li>
+    </ul>
 </nav>
+
+
+> SECTION 1 og 2 <
+
+<div class="section mt-5">
+    <div class="wrapper d-flex justify-content-center">
+        <img src="images/sortlogo.png" width="500" class="image">
+        <p class="wraptext1">kom og køb køb køb</p>
+    </div>
+</div>
+
+
+<div class="section mt-5">
+    <div class="wrapper d-flex justify-content-center">
+        <p class="wraptext2">kom og køb køb køb</p>
+        <img src="images/sortlogo.png" width="500" class="image2">
+    </div>
+</div>
+
+> FOOTER <
+
+<footer class="footer">
+    <div class="footer-form">
+        <form action="#" method="post">
+            <label for="email-input">TILMELD DIG NYHEDSBREVET</label>
+            <div class="form-inputs">
+                <input type="email" id="email-input" name="email" placeholder="Email adresse" required>
+                <button type="submit">Indsend</button>
+            </div>
+        </form>
+    </div>
+    <div class="Sandkraftfooter">
+        <p>Guldborgsund <br>
+        Kagevejen 41 <br>
+        4800 Nykøbing F</p>
+    </div>
+    <div class="footer-social">
+        <ul class="social-icons">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+    </div>
+</footer>
+
+
+
+
+
 
 
 <script>
