@@ -38,15 +38,33 @@
     <div class="navbar-logo">
         <a href="#"><img src="images/blåtlogo.png" alt="Logo" class="navbar-logo"></a>
     </div>
-    <label for="menu-toggle" class="navbar-toggle">&#9776;</label>
-    <input type="checkbox" id="menu-toggle" class="navbar-toggle-checkbox">
-    <ul class="navbar-menu">
-        <li><a href="#">Menu Item 1</a></li>
-        <li><a href="#">Menu Item 2</a></li>
-        <li><a href="#">Menu Item 3</a></li>
-        <li><a href="#">Menu Item 3</a></li>
-    </ul>
+    <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            >3streger<
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+            <button class="dropdown-item" type="button">Forside</button>
+            <button class="dropdown-item" type="button">Shop</button>
+            <button class="dropdown-item" type="button">Om Sangkraft</button>
+            <button class="dropdown-item" type="button">Syng i Guldborgsund</button>
+            <button class="dropdown-item" type="button">Begivenheder</button>
+            <button class="dropdown-item" type="button">Projekter</button>
+        </div>
+    </div>
 </nav>
+
+> HERO <
+<div class="jumbotron-fluid p-3">
+    <div class="container">
+        <h1 class="display-4">Sangkraft med Guldborgsund</h1>
+        <p class="lead">Flere stemmer - én kraft!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Læs mere om fællesskabet her</a>
+        </p>
+    </div>
+</div>
 
 
 > SECTION 1 og 2 <
@@ -59,10 +77,41 @@
 </div>
 
 
+
 <div class="section mt-5">
     <div class="wrapper d-flex justify-content-center">
         <p class="wraptext2">kom og køb køb køb</p>
         <img src="images/sortlogo.png" width="500" class="image2">
+    </div>
+</div>
+
+> "KORT" <
+<div class="row col d-flex justify-content-evenly">
+    <div class="card p-3 mt-3" style="width: 18rem;">
+        <img class="card-img-top" src="images/hvidlogo.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Shop</h5>
+            <p class="card-text">Se hvad vi tilbyder</p>
+            <a href="#" class="btn btn-primary">Shop her</a>
+        </div>
+    </div>
+
+    <div class="card p-3 mt-3" style="width: 18rem;">
+        <img class="card-img-top" src="images/sortlogo.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Lorem Ipsum</h5>
+            <p class="card-text">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+            <a href="#" class="btn btn-primary">Klik her</a>
+        </div>
+    </div>
+
+    <div class="card p-3 mt-3" style="width: 18rem;">
+        <img class="card-img-top" src="images/blåtlogo.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Lorem Ipsum</h5>
+            <p class="card-text">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+            <a href="#" class="btn btn-primary">Klik her</a>
+        </div>
     </div>
 </div>
 
@@ -73,8 +122,8 @@
         <form action="#" method="post">
             <label for="email-input">TILMELD DIG NYHEDSBREVET</label>
             <div class="form-inputs">
-                <input type="email" id="email-input" name="email" placeholder="Email adresse" required>
-                <button type="submit">Indsend</button>
+                <input type="email" id="email-input" name="email" placeholder="Email adresse">
+                <button type="submit" class="mt-2 mt-md-0">Indsend</button>
             </div>
         </form>
     </div>
